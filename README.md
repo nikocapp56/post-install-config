@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/> </p>
 
 <h1>osTicket - Post-Installation Configuration </h1>
-This guide demonstrates how to install and configure the open-source ticketing system osTicket (v1.15.8) on a Windows machine using IIS, PHP, and MySQL.
+This guide outlines the steps to configure the osTicket system after installation, focusing on setting up agents, users, permissions, teams, departments, SLAs, and help topics. This configuration ensures proper ticket routing and access control within your support environment.
 
 <h2>Environments and Technologies Used</h2>
 
@@ -30,6 +30,89 @@ Before starting, ensure the following environment is in place:
 - Install C++ Redistributable
 - Congure Permissions and Install osTicket
 
+🔐 Login URLs
+Admin/Analyst Login Page:
+http://localhost/osTicket/scp/login.php
+
+End User Ticket Submission Page:
+http://localhost/osTicket
+
+🔄 Admin Panel vs Agent Panel
+Admin Panel: Used for configuration and system management (accessible only by admins).
+
+Agent Panel: Used by helpdesk staff/agents to manage and respond to tickets.
+
+🧩 Configuration Steps
+🔐 1. Configure Roles (Permissions Grouping)
+Location: Admin Panel -> Agents -> Roles
+
+Role Created: Supreme Admin
+Used to assign full privileges to trusted agents.
+
+🏢 2. Configure Departments (Ticket Visibility)
+Location: Admin Panel -> Agents -> Departments
+
+Department Example: SysAdmins
+Helps control visibility of tickets among different teams (e.g., Help Desk, SysAdmins, Networking).
+
+👥 3. Configure Teams (Cross-Department Agent Groups)
+Location: Admin Panel -> Agents -> Teams
+
+Team Created: Online Banking
+Allows collaboration between agents from different departments.
+
+⚙️ 4. Modify User Registration Settings
+Location: Admin Panel -> Settings -> User Settings
+
+Setting Changed:
+
+✅ Require registration and login to create tickets
+
+❌ Uncheck "Allow unregistered users to create tickets"
+
+👩‍💼 5. Add Agents (Internal Help Desk Workers)
+Location: Admin Panel -> Agents -> Add New
+
+Agents Created:
+
+Jane (Department: SysAdmins)
+
+John (Department: Support)
+
+👨‍👩‍👧‍👦 6. Add Users (End Users / Customers)
+Location: Agent Panel -> Users -> Add New
+
+Users Created:
+
+Karen
+
+Ken
+
+⏱ 7. Configure SLA Plans
+Location: Admin Panel -> Manage -> SLA
+
+SLAs Created:
+
+Sev-A: 1-hour grace period (24/7 support)
+
+Sev-B: 4-hour grace period (24/7 support)
+
+Sev-C: 8-hour grace period (business hours only)
+
+❓ 8. Configure Help Topics
+Location: Admin Panel -> Manage -> Help Topics
+
+Topics Created:
+
+Business Critical Outage
+
+Personal Computer Issues
+
+Equipment Request
+
+Password Reset
+
+Other
 <h3>1️⃣ Install/Enable Internet Information Services (IIS) with CGI </h3>
 
 
