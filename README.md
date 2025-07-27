@@ -43,7 +43,7 @@ End User Ticket Submission URL: http://localhost/osTicket
 
 Admin Panel -> Agents -> Roles -> Add New Role
 
-<img width="572" alt="3" src="https://github.com/user-attachments/assets/2e8afeed-01de-4ddb-8e53-f394d151e7d9" />
+<img width="800" alt="3" src="https://github.com/user-attachments/assets/2e8afeed-01de-4ddb-8e53-f394d151e7d9" />
 
 Create a Supreme Admin that will be given full permissions. Roles are used to determine an agent's permissions so not all agents will have unlimited access. 
 
@@ -55,13 +55,13 @@ Create a Supreme Admin that will be given full permissions. Roles are used to de
 <h3> 2️⃣ Configure Departments </h3>
 Admin Panel -> Agents -> Departments -> Add New Department
 
-<img width="700" alt="8" src="https://github.com/user-attachments/assets/a09026e7-3194-46c4-87e7-8f3673799e75" />
+<img width="800" alt="8" src="https://github.com/user-attachments/assets/a09026e7-3194-46c4-87e7-8f3673799e75" />
 
-Create a System Admins department. This is where the Supreme Admins will be designated. Each Agent is assigned to a specific department depending on their assigned role within the helpdesk. 
+Create a System Admins department. This is where the Supreme Admins will be designated. 
+
+Each Agent is assigned to a specific department depending on their assigned role within the helpdesk. Diferent departments are set up to ensure that tickets are only visible to the apprpriate teams (e.g., Help Desk, System Admins, Networking).
 
 <img width="800" alt="9" src="https://github.com/user-attachments/assets/d565f038-5e4e-4b13-a5ca-86c45407b3e6" />
-
-Diferent departments are there so that tickets are only visible to the right departments (e.g., Help Desk, System Admins, Networking).
 
 <img width="800" alt="10" src="https://github.com/user-attachments/assets/fa3b70cd-6e17-49b5-8805-9c9a5709b325" />
 
@@ -114,63 +114,72 @@ Create 2 Agents:
 <img width="800" alt="19" src="https://github.com/user-attachments/assets/1a0b68b2-7f60-4990-8301-e49351fe1aad" />
 <img width="800" alt="21" src="https://github.com/user-attachments/assets/df23a86f-5653-4c82-beba-1899ff0650a4" />
 <img width="800" alt="20" src="https://github.com/user-attachments/assets/78bbd78a-0c6e-4145-a7e4-fa1ae07bc228" />
+</p>
+<img width="800" alt="21 5" src="https://github.com/user-attachments/assets/a3082375-5c34-4a05-bb18-088066606138" />
 
+<h3> 6️⃣ Add Users (End Users / Customers) </h3>
 
-👨‍👩‍👧‍👦 6. Add Users (End Users / Customers)
-Location: Agent Panel -> Users -> Add New
+Agent Panel -> Users -> Add User
 
-Users Created:
+<img width="800" alt="22" src="https://github.com/user-attachments/assets/06369645-1449-407c-8642-7d7cb96c1b9f" />
 
-Karen
+Create 2 Users that will be used to create trouble tickets for testing:
+- Karen
+- Ken
 
-Ken
+<img width="800" alt="23" src="https://github.com/user-attachments/assets/40b499d9-b5b0-4330-b33f-e3a7a056ca4a" />
 
-⏱ 7. Configure SLA Plans
-Location: Admin Panel -> Manage -> SLA
+<h3> 7️⃣ Configure SLA Plans </h3>
 
-SLAs Created:
+Admin Panel -> Manage -> SLA -> Add New SLA Plan
 
-Sev-A: 1-hour grace period (24/7 support)
+<img width="800" alt="24" src="https://github.com/user-attachments/assets/f93ec25f-453b-4460-bc25-8dd097deaff0" />
+</p>
+SLA Plans provide a length of time in which the help desk is expected to take in order to solve a specific ticket. Each SLA has a schedule and within that schedule there is a grace period that gives you time to respond before the SLA timer kicks back in after a new update on the ticket.
+</p>
+Create 3 SLA Plans:
 
-Sev-B: 4-hour grace period (24/7 support)
+- Sev-A (Critical problem)
+  - Grace Period: 1 hour
+  - Schedule: 24/7
+ 
+<img width="800" alt="25" src="https://github.com/user-attachments/assets/791ec1ca-475c-463b-91dd-6b188f099449" />
 
-Sev-C: 8-hour grace period (business hours only)
+- Sev-B (High problem)
+  - Grace Period: 4 hours
+  - Schedule: 24/7
+ 
+<img width="800" alt="26" src="https://github.com/user-attachments/assets/9dc37644-0f1b-4e9d-b652-31b7f4fabdfb" />
 
-❓ 8. Configure Help Topics
-Location: Admin Panel -> Manage -> Help Topics
+- Sev-C (Medium or low problem)
+  - Grace Period: 8 hours
+  - Schedule: Business Hours
+ 
+<img width="800" alt="27" src="https://github.com/user-attachments/assets/16cfc556-dd5b-45b2-bd53-5224420e7a20" />
+</p>
+<img width="800" alt="28" src="https://github.com/user-attachments/assets/bb499854-9e30-4475-ad81-97de2e59b00b" />
 
-Topics Created:
+<h3> 8️⃣ Configure Help Topics </h3>
 
-Business Critical Outage
+Help topics help users categorize their tickets.
 
-Personal Computer Issues
+Admin Panel -> Manage -> Help Topics -> Add New Help Topic
 
-Equipment Request
+<img width="800" alt="29" src="https://github.com/user-attachments/assets/fcb36cf5-e17b-4cd0-a875-52e2f81a7959" />
+</p>
+Create 5 Help Topics:
 
-Password Reset
+- Business Critical Outage
+<img width="800" alt="30" src="https://github.com/user-attachments/assets/49267b15-ea06-41d6-b763-25d432448fd2" />
 
-Other
+- Personal Computer Issues
+<img width="800" alt="31" src="https://github.com/user-attachments/assets/f8ede3c1-c4f3-4609-b73e-31dad54280b6" />
 
-<h3> 6️⃣ Configure PHP in IIS </h3>
+- Equipment Request
+<img width="800" alt="32" src="https://github.com/user-attachments/assets/fc93ac36-52f9-4fb7-ba25-5b4776cc792c" />
 
+- Password Reset
+<img width="800" alt="33" src="https://github.com/user-attachments/assets/ccaeb315-8c53-4361-9e7c-290cf5bc3ee1" />
 
-
-<h3> 7️⃣ Install osTicket </h3>
-
-
-
-<h3> 8️⃣ Enable required PHP extensions </h3>
-
-
-
-<h3> 9️⃣ Configure osTicket </h3>
-
-
-
-<h3> 🔟 Setup the database </h3>
-
-
-
-<h3> 1️⃣1️⃣ Finalize and cleanup </h3>
-
-
+- Other
+<img width="800" alt="34" src="https://github.com/user-attachments/assets/fad3aaf6-ae53-4765-968b-4146ece8c907" />
