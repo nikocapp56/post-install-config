@@ -1,7 +1,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/> </p>
 
 <h1>osTicket - Post-Installation Configuration </h1>
-This guide outlines the steps to configure the osTicket system after installation, focusing on setting up agents, users, permissions, teams, departments, SLAs, and help topics. This configuration ensures proper ticket routing and access control within your support environment.
+This guide outlines the steps to configure the osTicket system after installation, focusing on setting up agents, users, permissions, teams, departments, SLAs, and help topics. This configuration creates a system where end users can submit tickets, agents can work on them, and admins can manage everything behind the scenes, ensuring proper ticket routing, access control, organization, and flow of requests. 
 
 <h2>Environments and Technologies Used</h2>
 
