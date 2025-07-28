@@ -119,11 +119,11 @@ Create 2 Agents:
   - Username: john
   - Password: Password1
   - Department: Support
-  - Role: View only
+  - Role: Expanded Access
 
 <img width="800" alt="19" src="https://github.com/user-attachments/assets/1a0b68b2-7f60-4990-8301-e49351fe1aad" />
 <img width="800" alt="21" src="https://github.com/user-attachments/assets/df23a86f-5653-4c82-beba-1899ff0650a4" />
-<img width="800" alt="20" src="https://github.com/user-attachments/assets/78bbd78a-0c6e-4145-a7e4-fa1ae07bc228" />
+<img width="800" alt="20" src="https://github.com/user-attachments/assets/6b687c13-bda7-4f43-b12b-a92f89ec7659" />
 </p>
 <img width="800" alt="21 5" src="https://github.com/user-attachments/assets/a3082375-5c34-4a05-bb18-088066606138" />
 
