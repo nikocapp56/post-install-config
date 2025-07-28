@@ -68,6 +68,10 @@ Create a System Admins department. This is where the Supreme Admins will be desi
 
 <img width="800" alt="10" src="https://github.com/user-attachments/assets/fa3b70cd-6e17-49b5-8805-9c9a5709b325" />
 
+Delete the Maintenance Department so that the tickets do not get routed there.
+
+<img width="800" alt="10 5" src="https://github.com/user-attachments/assets/f9ebd7b2-1fec-45ff-b131-6d4bb3bf0ecc" />
+
 <h3> 3️⃣ Configure Teams </h3>
 
 Teams allow collaboration between agents from different departments who will work together on specific types of issues.
