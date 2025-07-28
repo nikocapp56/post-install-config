@@ -83,6 +83,10 @@ Admin Panel -> Agents -> Teams -> Add New Team
 Create an Online Banking Team. 
 
 <img width="800" alt="12" src="https://github.com/user-attachments/assets/3de24fc0-8542-49d4-88f4-d0e57bd1b242" />
+
+Add Jane to the Online Banking Team.
+
+<img width="800" alt="12 5" src="https://github.com/user-attachments/assets/67a7b79e-ad2b-49b1-9628-0a0e5e675a7b" />
 <img width="800" alt="13" src="https://github.com/user-attachments/assets/49ce82ce-1b56-478a-a817-162709f98653" />
 
 <h3> 4️⃣ Modify User Registration Settings </h3>
